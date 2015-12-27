@@ -3,7 +3,6 @@ package sitemap
 import (
 	"encoding/xml"
 	"errors"
-	"time"
 )
 
 // MaxSitemaps is the maximum allowable number of sitemap entries in a sitemap

@@ -5,7 +5,6 @@ package sitemap
 import (
 	"encoding/xml"
 	"errors"
-	"time"
 )
 
 const (
