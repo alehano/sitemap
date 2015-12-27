@@ -46,7 +46,7 @@ type URLSet struct {
 // information.
 type URL struct {
 	Loc        string     `xml:"loc"`
-	LastMod    *time.Time `xml:"lastmod,omitempty"`
+	LastMod    string `xml:"lastmod,omitempty"`
 	ChangeFreq ChangeFreq `xml:"changefreq,omitempty"`
 	Priority   float64    `xml:"priority,omitempty"`
 }
